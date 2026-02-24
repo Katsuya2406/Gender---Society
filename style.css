@@ -1,0 +1,55 @@
+    .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80x;
+    }
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(255, 136, 132);
+  float: left;
+}
+
+
+
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        padding: 5%;
+        background-image: linear-gradient(rgb(255, 221, 218), rgb(255, 221, 218)), url(images/background.jpg);
+        background-position: right;
+        background-size: cover;
+        display: flex;
+    
+       
+    }
+
+    .search{
+        width: 60%;
+        max-width: 300px;
+        max-height: 50px;
+        background: rgb(255, 136, 132);
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        padding: 10px 20px;
+        position: absolute; /
+        top: 10px;  
+        
+        right: 100px;         
+}
+
+    
+
+    .search input{
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+    
+
+
+    }
