@@ -85,7 +85,7 @@
         width: 100%;
         min-height: 100vh;
         padding: 5%;
-        background-image: linear-gradient(to top, rgb(249, 197, 197), rgb(251, 230, 211));
+        background-image: linear-gradient(to top, rgb(228, 144, 144), rgb(251, 230, 211));
         background-position: center;
         background-size: cover;
         display: flex;
